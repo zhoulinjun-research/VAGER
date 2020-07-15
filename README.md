@@ -21,7 +21,7 @@ This repository is for our CVPR2019 paper, named **Learning to Learn Image Class
 3. Put all features of base classes in `features/base/`, one .npy file for one class, named `[0-799].npy`, each containing a [K, 4096] matrix, where K is the image number in the corresponding class.
 4. Put all features of novel classes in `features/novel/`, one .npy file for one class, named `[0-199].npy`.
 5. Put all features of validation images in base classes in `features/val/`, one .npy file for one class, named `[0-799].npy`.
-6. Execute `python preprocessing.py`
+6. `ls src/` and then execute `python preprocessing.py`
 7. Execute `python ddim.py`
 8. Execute `python data_convert.py`, step 6, 7, 8 is a preliminary feature dimension deduction step.
 9. Execute `python training.py`, training base classes with VAGER.
