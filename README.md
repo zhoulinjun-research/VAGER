@@ -24,5 +24,5 @@ This repository is for our CVPR2019 paper, named **Learning to Learn Image Class
 6. `ls src/` and then execute `python preprocessing.py`
 7. Execute `python ddim.py`
 8. Execute `python data_convert.py`, step 6, 7, 8 is a preliminary feature dimension deduction step.
-9. Execute `python training.py`, training base classes with VAGER.
+9. Change parameters in `config.py`, then execute `python training.py`, training base classes with VAGER.
 10. Execute `python multi_cls.py`, generalization to novel classes, and then testing for accuracy.
